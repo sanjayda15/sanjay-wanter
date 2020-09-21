@@ -1,0 +1,128 @@
+[
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "Mac Book",
+        "slug": "mac",
+        "description": "Mac OS is the computer operating system for Apple Computer's MacIntosh line of personal computers and workstations. ... It runs UNIX applications as well as older Mac applications. Mac OS comes with Apple Computer's iMac and Power Macintosh line of computers.",
+        "price": "1000.00",
+        "image": "products/6339611/6339611.jpg",
+        "timestamp": "2020-08-14T04:30:00.059Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "Bag",
+        "slug": "bag",
+        "description": "A bag is a kind of soft container. It can hold or carry things. It may be made from cloth, leather, plastic, or paper. ... A small bag that can be carried with a single hand is sometimes called a handbag, purse, or pocketbook.",
+        "price": "39.99",
+        "image": "products/9061294/9061294.jpg",
+        "timestamp": "2020-08-14T04:30:25.746Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "title": "watches",
+        "slug": "watches",
+        "description": "A watch is a portable timepiece intended to be carried or worn by a person. ... A wristwatch is designed to be worn around the wrist, attached by a watch strap or other type of bracelet, including metal bands, leather straps or any other kind of bracelet.",
+        "price": "100.00",
+        "image": "products/6428877/6428877.jpg",
+        "timestamp": "2020-08-14T04:31:02.067Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "title": "Shoes",
+        "slug": "shoes",
+        "description": "A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion. The design of shoes has varied enormously through time and from culture to culture, with appearance originally being tied to function.",
+        "price": "50.00",
+        "image": "products/2199896/2199896.jpg",
+        "timestamp": "2020-08-14T04:31:29.897Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "title": "Sun Glasses",
+        "slug": "sun-glasses",
+        "description": "Sunglasses or sun glasses (informally called shades or sunnies; more names below) are a form of protective eyewear designed primarily to prevent bright sunlight and high-energy visible light from damaging or discomforting the eyes.",
+        "price": "65.50",
+        "image": "products/1097460/1097460.jpg",
+        "timestamp": "2020-08-14T04:32:15.782Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "A hat is a head covering which is worn for various reasons, including protection against weather conditions, ceremonial reasons such as university graduation, religious reasons, safety, or as a fashion accessory. In the past, hats were an indicator of social status.",
+        "price": "20.00",
+        "image": "products/9212730/9212730.jpg",
+        "timestamp": "2020-08-14T04:32:48.473Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "title": "Speakers",
+        "slug": "speakers",
+        "description": "Speaker is defined as an electrical device used to make sound or music louder. An example of speaker is how music is listened to in a car. The definition of a speaker is a spokesperson or a person giving a speech. An example of speaker is the person who people have gathered around to hear talk about something.",
+        "price": "80.20",
+        "image": "products/4170008/4170008.jpg",
+        "timestamp": "2020-08-14T04:33:22.345Z",
+        "featured": true,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "title": "Women Clothes",
+        "slug": "women-clothes",
+        "description": "Clothing (also known as clothes, apparel and attire) is items worn on the body. Clothing is typically made of fabrics or textiles but over time has included garments made from animal skin or other thin sheets of materials put together.",
+        "price": "10.85",
+        "image": "products/99775/99775.jpg",
+        "timestamp": "2020-08-14T04:34:38.628Z",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "title": "Men's Clothes",
+        "slug": "mens-clothes",
+        "description": "Clothing (also known as clothes, apparel and attire) is items worn on the body. Clothing is typically made of fabrics or textiles but over time has included garments made from animal skin or other thin sheets of materials put together.",
+        "price": "8.99",
+        "image": "products/4999263/4999263.jpg",
+        "timestamp": "2020-08-14T04:35:05.156Z",
+        "featured": false,
+        "active": true
+    }
+}
+]

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container-fluid">
+<div class="row pb-2">
+  <div class='col-12 col-md-8'>
+                <h1 style='text-align:center;'>{{ object.title }}</h1>
+                {% if object.image %}
+                    <img src='{{ object.image.url }}' class='img-fluid center-block rounded' />
+                {% endif %}<br>
+                {{ object.timestamp|timesince }} ago
+                {{ object.description|linebreaks }}<br/>
+
+        </div>
+        <div class='col-12 col-md-4'>
+          <h3 style='text-align:center;'>Charges:-</h3>
+          <hr>
+          <h5 style='text-align:center;'>Cost of the product:- <b>Rs.{{object.price}}</b></h5>
+          <h5 style='text-align:center;'>G.S.T:- <b>Rs.10</b></h5>
+          <div class="center-block col-4">
+            {% include 'products/snippets/update-cart.html' with product=object cart=cart %}
+
+          </div>
+
+        </div>
+</div>
+
+{% endblock %}
